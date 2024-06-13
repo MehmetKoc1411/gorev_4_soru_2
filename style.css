@@ -1,0 +1,107 @@
+body 
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container 
+{
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 
+{
+    color: #ffcc00;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input 
+{
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffcc00;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+button 
+{
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+button:hover 
+{
+    background-color: #ffb300;
+}
+
+#result 
+{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffcc00;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s;
+}
+
+.numbers-div 
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.numbers-div p 
+{
+    margin-bottom: 5px;
+}
+
+.numbers-div span 
+{
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+@keyframes fadeIn 
+{
+    from 
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}
