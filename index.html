@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sayısal Loto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Sayısal Loto</h1>
+    <div id="numbers">
+        <label for="number1">1. Sayı:</label>
+        <input type="number" id="number1" min="1" max="49">
+        <label for="number2">2. Sayı:</label>
+        <input type="number" id="number2" min="1" max="49">
+        <label for="number3">3. Sayı:</label>
+        <input type="number" id="number3" min="1" max="49">
+        <label for="number4">4. Sayı:</label>
+        <input type="number" id="number4" min="1" max="49">
+        <label for="number5">5. Sayı:</label>
+        <input type="number" id="number5" min="1" max="49">
+        <label for="number6">6. Sayı:</label>
+        <input type="number" id="number6" min="1" max="49">
+    </div>
+    <button onclick="checkNumbers()">Tahmin Et</button>
+    <div id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
